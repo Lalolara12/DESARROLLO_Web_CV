@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Curriculum</title>
+    <script src="formulario.js" defer></script>
+    <style>
+        #principal {
+            border: solid 1px;
+            margin: 0 auto;
+            width: 80% ;
+            padding: 5px ;
+            text-align: center;
+            margin-bottom: 10px;
+            background-color: bisque;
+            border: solid 1px #cccc;
+            padding: 5px;
+            font-weight: bold;
+            border-radius: 20px;
+            align-items: left;
+        }
+        fieldset{
+            margin-bottom: 10px;
+            background-color: burlywood;
+            border: solid 1px #cccc;
+            padding: 5px;
+            font-weight: bold;
+            border-radius: 20px;
+        }
+        legend{
+            border: solid 1px #cccc;
+            padding: 5px;
+            font-weight: bold;
+            border-radius: 20px;
+            background-color: khaki;
+            text-align: center;
+        }
+        #mifoto {
+            margin: 5px;
+            border: solid 4px #cccc;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="principal">
+        <img src="yo.png"  width="150">
+        <h2>José Eduardo Lara Prado</h2>
+        <p> Me agrada que me digan Lalo</p> 
+    </div>
+<fieldset>
+    <legend> Datos Generales</legend>
+    <ul>
+        <li>Fecha de nacimiento: 01 de Marzo del 2004 (20 años)</li>
+        <li>Nacionalidad: Mexicano</li>
+        <li>Estudiante de Ingeniería en Software y Sistemas Computacionales</li>
+    </ul>
+</fieldset>
+<fieldset>
+    <legend> Formacion Academica</legend>
+    <ul>
+        <li>Escuela: Universidad Cuauhtémoc Querétaro</li>
+        <li>Carrera: Ingeniería en Software y Sistemas Computacionales</li>
+        <li>Cuatrimestre: 6to Cuatrimestre de 9 Cuatrimestres</li>
+        <li>Curso: Java (En progreso)</li>
+        <li>Curso: Javascript (En progreso)</li>
+    </ul>
+</fieldset>
+<fieldset>
+    <legend> Experiencia Laboral</legend>
+    <ul>
+        <li>Rol: Practicante de Ingeniería en Sistemas Computacionales</li>
+        <li>Empresa: Colegio Viktor Frankl Querétaro</li>
+        <li>Cargo: Mantenimiento de equipo de computo, apoyo en problemas computacionales y electronicos dentro de la empresa</li>
+    </ul>
+</fieldset>
+<fieldset>
+    <legend> Contacto</legend>
+    <ul>
+        <li>Telefono: (+52)4421211718</li>
+        <li>Correo: lalolaraprado@gmail.com</li>
+        <li>Dirección: México, Querétaro</li>
+        <section>
+            <h2>Usuarios</h2>
+            <button id="fetchUsers">Obtener Usuarios</button>
+            <div id="user-list"></div>
+        </section>
+    </ul>
+</fieldset>
+</body>
+</html>
